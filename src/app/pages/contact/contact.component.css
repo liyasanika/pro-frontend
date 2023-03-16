@@ -1,0 +1,10 @@
+.kk{
+    background-image: url("../../../assets/images/ggg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+.kl{
+    display: inline-block;
+    opacity: 50%;
+}
