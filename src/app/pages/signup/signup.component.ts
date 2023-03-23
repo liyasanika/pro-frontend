@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from 'src/app/auth.service';
 
 @Component({
   selector: 'app-signup',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent {
-
+  constructor(private auth:AuthService){}
+  signup(formData:any)
+  {
+    this.auth.signup(formData)
+  }
 }

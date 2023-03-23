@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "projectname-765f0": {
+      "hosting": {
+        "projects": [
+          "projectname-765f0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "projectname-765f0"
+  }
+}
